@@ -1,0 +1,24 @@
+
+<div class = "current">
+		<div style="text-align:center">
+			<!--	 <span><b>Here is current weather</b></span> -->  
+				</div>
+<div class="current">
+	<div class="current-weather-description">
+		<span>
+			<b>Here is current weather</b>
+		</span>
+	</div>
+	<div>
+		<span>{{current.city}}, {{current.country}}</span>
+		<br>
+		<span>{{current.date | date: 'fullDate'}}</span>
+	</div>
+	<div>
+		<img [src]='current.image'>
+		<span>{{current.temperature | number: '1.0-0'}}&#x2109;</span>
+	</div>
+	<div>
+		{{current.description}}
+	</div>
+</div>

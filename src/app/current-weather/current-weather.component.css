@@ -1,0 +1,20 @@
+.current{
+    height: 200px;
+    width: 600px;
+    z-index: -3;
+    display: grid;
+    /* background-image: linear-gradient(to bottom, #D3F8FC,#ffffff); */
+    background-color: white;
+    /* box-shadow: 2rem; */
+    border-radius: 15px;
+    /* margin-top: 0.5px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.current-weather-description{
+    text-align: center;
+    padding: 15px;
+}
