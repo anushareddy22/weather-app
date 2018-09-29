@@ -45,7 +45,7 @@ export class WeatherServiceService {
       image: `http://openweathermap.org/img/w/${data.weather[0].icon}.png`,
       temperature: this.convertKelvinToFahrenheit(data.main.temp),
       description: data.weather[0].description
-    }
+    };
   }
   private convertKelvinToFahrenheit(kelvin: number): number {
     return kelvin * 9 / 5 - 459.67;
